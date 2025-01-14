@@ -1,0 +1,237 @@
+/*HOME BANNER*/
+
+#slider .banner-figcaption {
+    position: absolute;
+    top: 43%;
+    left: 95%;
+    width: 72%;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    transform: translate(-50%,-50%);
+    padding: 0px 15px;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: inherit;
+    color: #fafcfa;
+    margin-bottom: 0;
+    line-height: 45px;
+    padding-bottom: 18px;
+    padding-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.banner-subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0px;
+    text-transform: initial;
+    padding-bottom: 10px;
+    line-height: 23px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}
+
+#slider .banner-figcaption .button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#slider .banner-figcaption .button:hover {
+    color: #000;
+}
+
+#slider .banner-figcaption p {
+     color: #fff;
+}
+
+/*SERVICE*/
+
+#slider .banner-figcaption-serv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner-title-serv {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: inherit;
+    color: #fefefe;
+    margin-bottom: 0;
+    line-height: 30px;
+    padding-bottom: 0px;
+    padding-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+
+.banner-subtitle-serv {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0px;
+    text-transform: initial;
+    padding-bottom: 0;
+    line-height: 20px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+
+/*BANNER BLOG*/
+
+.inside-banner {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 3.8%;
+    right: auto;
+}
+
+.banner-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.banner-text {
+    display: block;
+}
+
+.banner-title-blog {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: inherit;
+    color: #fefefe;
+    margin-bottom: 0;
+    line-height: 30px;
+    padding-bottom: 0px;
+    padding-top: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 1900px){
+    
+#slider .banner-figcaption {
+    position: absolute;
+    top: 38%;
+    left: 97%;
+    width: 70%;
+}
+
+}
+
+@media only screen and (min-width: 2500px){
+
+#slider .banner-figcaption {
+    position: absolute;
+    top: 33%;
+    left: 90%;
+    width: 70%;
+}
+
+}
+
+
+@media only screen and (min-width: 1024px){
+
+
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    #slider .banner-figcaption {
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    width: 44%;
+}
+}
+
+@media only screen and (max-width: 940px){
+    
+    .banner-title-serv br,
+    .banner-subtitle  br,
+    .banner-title br{
+    display: none;
+}
+    
+    .banner-figcaption-serv .normal-text br {
+        display:none;
+    }
+
+.banner-figcaption .button{
+    margin-top: 15px;
+}  
+
+#slider .banner-figcaption {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 0px 0 60px 0;
+    transform: none;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    background: #181818;
+}
+
+.banner-subtitle-serv br{
+display:none;
+}
+
+/*BLOG BANNER*/
+
+}
+
+
+
+@media only screen and (max-width: 568px) {
+    
+    #slider .banner-figcaption-serv {
+   padding: 50px 10px;
+}
+         
+}
+
+@media only screen and (max-width: 480px) {
+    
+.banner-title br,
+.banner-title-blog br{
+    display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 479px) {
+    
+    .banner-subtitle-serv {
+   line-height: 30px;
+}
+    
+}
+ 
+       
